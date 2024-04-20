@@ -2,3 +2,20 @@
 a.active {
     font-weight: bold;
 }
+
+.header {
+    background-color: brown;
+    align-items: center;
+
+}
+
+.navi {
+
+    list-style-type: lower-roman;
+    justify-content: center;
+    display: inline;
+}
+
+nav ul li {
+    display: inline;
+}

@@ -1,21 +1,40 @@
-/* Add screen styles below */
-a.active {
-    font-weight: bold;
-}
-
 .header {
-    background-color: brown;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(217, 79, 29);
+    display: flex;
     align-items: center;
 
-}
-
-.navi {
-
-    list-style-type: lower-roman;
-    justify-content: center;
+  }
+  
+  a.active {
+    font-weight: bold;
+  }
+  
+  ol li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
     display: inline;
-}
-
-nav ul li {
-    display: inline;
-}
+  }
+  
+  main {
+    background-color: rgb(250, 242, 230);
+  }
+  
+  h4 {
+    font-size: 16px; /* Adjust font size of h4 */
+  }
+  
+  h4 span {
+    color: #999; 
+    font-size: smaller;
+  }
+  
